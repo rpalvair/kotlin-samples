@@ -4,10 +4,12 @@ fun main(arg: Array<String>) {
     println("Welcome to [$appNameUppercase]")
     val nullUpperCase = toUpperCaseSafety(null)
     println("Null uppercase [$nullUpperCase]")
-    val lenghtMessage = "$applicationName.length  is ${applicationName.length}"
+    val lenghtMessage = getLengthMessage(applicationName)
     println("message : $lenghtMessage")
 }
 
 fun getApplicationName(): String = "kotlin-helloworld"
 
 fun toUpperCaseSafety(input: String?): String? = input.orEmpty().toUpperCase()
+
+fun getLengthMessage(input:String):String =  "$input.length  is ${input.length}"

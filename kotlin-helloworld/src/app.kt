@@ -1,5 +1,8 @@
 
 
 fun main(arg:Array<String>) {
-    println("Hello World")
+    val applicationName = getApplicationName()
+    println("Welcome to $applicationName")
 }
+
+fun getApplicationName():String = "kotlin-helloworld"

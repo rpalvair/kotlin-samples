@@ -1,3 +1,5 @@
+package com.palvair.kotlin
+
 fun main(arg: Array<String>) {
     val applicationName = getApplicationName()
     val appNameUppercase = toUpperCaseSafety(applicationName)

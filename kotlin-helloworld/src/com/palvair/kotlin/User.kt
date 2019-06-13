@@ -1,3 +1,5 @@
+package com.palvair.kotlin
+
 class User(nom: String, val prenom: String?) {
     val nom = nom.toUpperCase()
 
@@ -14,5 +16,5 @@ fun main(arg: Array<String>) {
     val user = User("Doe")
     println("nom = ${user.nom}")
     println("nom = ${user.prenom}")
-    User("Doe","John")
+    User("Doe", "John")
 }

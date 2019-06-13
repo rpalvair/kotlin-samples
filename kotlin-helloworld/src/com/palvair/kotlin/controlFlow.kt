@@ -1,8 +1,10 @@
+package com.palvair.kotlin
+
 fun main() {
     val maximum = max(1, 2)
     println("maximum is $maximum")
-    println("isNumber = " + isNumber(1))
-    println("isNumber = " + isNumber("1"))
+    println("com.palvair.kotlin.isNumber = " + isNumber(1))
+    println("com.palvair.kotlin.isNumber = " + isNumber("1"))
     displayListContent(listOf(1, 2, 3))
     displayArrayContent(Array(5) { i -> (i * i) })
 }
